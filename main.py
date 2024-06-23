@@ -47,4 +47,13 @@ download.pack(padx = 10, pady = 15)
 FinishedDownload = customtkinter.CTkLabel(app, text = "")
 FinishedDownload.pack()
 
+#progress bar
+
+percentage = customtkinter.CTkLabel(app,text = "0%")
+percentage.pack()
+
+progressbar = customtkinter.CTkProgressBar(app, width = 400)
+progressbar.set(0)
+progressbar.pack()
+
 app.mainloop()
