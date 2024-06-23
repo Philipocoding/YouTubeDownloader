@@ -1,2 +1,2 @@
 # YouTubeDownloader
-Learning TKinter
+Learning TKinter as first python GUI
